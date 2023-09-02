@@ -15,12 +15,11 @@ I am a student of [Marketing MSc (2023-24) ](https://www.qmul.ac.uk/postgraduate
 - Management Trainee
 - Product Development Intern
 
-#### Behance Portfolio
+#### Behance Portfolio :  [saulisarkar](https://www.behance.net/saulisarkar)
 
 ## Contact
 
 - Email : [saulisarkar06@gmail.com](mailto:saulisarkar06@gmail.com)
-- Behance Portfolio : [saulisarkar](https://www.behance.net/saulisarkar)
 - Linedin : [Sauli S.](https://in.linkedin.com/in/sauli-sarkar)
 - Facebook : [sarkarsauli](https://www.facebook.com/sarkarsauli/)
 
