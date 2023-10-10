@@ -20,7 +20,7 @@ I am a student of [Marketing MSc (2023-24) ](https://www.qmul.ac.uk/postgraduate
 ## Contact
 
 - Email : [saulisarkar06@gmail.com](mailto:saulisarkar06@gmail.com)
-- Linedin : [Sauli S.](https://in.linkedin.com/in/sauli-sarkar)
+- LinkedIn : [Sauli S.](https://in.linkedin.com/in/sauli-sarkar)
 - Facebook : [sarkarsauli](https://www.facebook.com/sarkarsauli/)
 - Instagram : [saulicious](https://www.instagram.com/saulicious_/)
 
