@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-
+    <!-- Modern site styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" media="screen" type="text/css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -17,12 +19,16 @@
   </head>
 
   <body>
-    <header>
+    <header class="site-hero">
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h1 class="site-title">{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <h2 class="site-subtitle" id="site-subtitle">{{ site.description | default: site.github.project_tagline }}</h2>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="{{ '/resume.pdf' | relative_url }}" download>Download Resume</a>
+          <a class="btn" href="https://www.behance.net/saulisarkar" target="_blank" rel="noopener">Portfolio</a>
+        </div>
         {% if site.github.is_project_page %}
 <!--           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a> -->
         {% endif %}
