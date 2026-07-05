@@ -3,7 +3,7 @@
 <div class="fade-up card" style="display:flex; flex-wrap:wrap; align-items:center; gap:20px; margin-bottom:20px;">
   <img class="profile-img" src="/assets/images/profile.svg" alt="Sauli Sarkar profile illustration" />
   <div>
-    <p style="margin:0 0 8px 0; font-size:1.1em; font-weight:600;">I am Sauli Sarkar, a Marketing postgraduate with distinction from Queen Mary University of London, currently based in Gurugram, India.</p>
+    <p style="margin:0 0 8px 0; font-size:1.1em; font-weight:600;">I am Sauli Sarkar, a Marketing postgraduate with distinction from Queen Mary University of London, currently  based in Gurugram, India.</p>
     <p style="margin:0;">I recently relocated from London to Gurgaon and am actively seeking opportunities in Performance Marketing, Branding, and E-commerce.</p>
   </div>
 </div>
