@@ -22,5 +22,11 @@ document.addEventListener('DOMContentLoaded',()=>{
     });
   },{rootMargin:'0px 0px -8% 0px',threshold:0.1});
 
-  document.querySelectorAll('.fade-up').forEach(el=>io.observe(el));
+  const fadeEls=document.querySelectorAll('.fade-up');
+  if(fadeEls.length){
+    fadeEls.forEach(el=>io.observe(el));
+  } else {
+    // fallback if no fade-up elements are present
+    document.querySelectorAll('.card').forEach(el=>el.classList.add('in-view'));
+  }
 });
