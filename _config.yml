@@ -1,4 +1,11 @@
 theme: jekyll-theme-architect
-title: Sauli
-description: Marketing Postgrad, QMUL
+title: Sauli Sarkar | Marketing Postgrad
+description: Creative marketer, designer, and storyteller based in London
+author: Sauli Sarkar
+url: https://saulisarkar.github.io
+baseurl: ""
+lang: en-US
+show_downloads: false
 google_analytics: G-0RKBSLBXP0
+plugins:
+  - jekyll-seo-tag
