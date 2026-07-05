@@ -8,6 +8,15 @@
 body{font-family:Poppins,system-ui,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6;color:#101828;background:#f8fafc;margin:0}
 .site-hero{background:linear-gradient(180deg, #0ea5e980 0%, #0284c740 60%), url('/assets/images/profile.svg') right 8% center/210px no-repeat; padding:48px 0 20px;border-bottom:1px solid rgba(2,6,23,0.05)}
 .inner{max-width:980px;margin:0 auto;padding:0 18px}
+.announcement{background:linear-gradient(90deg,#f59e0b,#f97316);color:#fff;padding:8px 0;text-align:center}
+.announcement .announce-cta{margin-left:12px;background:rgba(255,255,255,0.12);padding:6px 12px;border-radius:8px;color:#fff;text-decoration:none}
+.hero-sparkles{position:absolute;right:6%;top:38px;width:220px;height:120px;pointer-events:none}
+.sparkle{position:absolute;width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.9);box-shadow:0 0 8px rgba(255,255,255,0.6);opacity:.9}
+.sparkle.s1{right:10px;top:10px;animation:twinkle 2.4s infinite}
+.sparkle.s2{right:60px;top:30px;transform:scale(.9);animation:twinkle 3s .2s infinite}
+.sparkle.s3{right:120px;top:8px;transform:scale(.75);animation:twinkle 1.8s .6s infinite}
+
+@keyframes twinkle{0%{transform:scale(.6);opacity:.3}50%{transform:scale(1.1);opacity:1}100%{transform:scale(.6);opacity:.3}}
 .site-title{font-family:Pacifico,cursive;font-size:48px;color:#ffffff;margin:0 0 8px}
 .site-subtitle{color:rgba(255,255,255,0.9);margin:0 0 14px;font-weight:300}
 .hero-ctas{margin-top:12px;display:flex;gap:12px;flex-wrap:wrap}
@@ -26,6 +35,8 @@ body{font-family:Poppins,system-ui,Segoe UI,Roboto,Helvetica,Arial;line-height:1
 h2{font-size:1.4rem;color:#0f172a;margin-bottom:12px}
 
 .card{background:var(--card);padding:24px;border-radius:18px;box-shadow:0 14px 30px rgba(15,23,42,0.08);margin-bottom:22px}
+
+.section-banner{display:block;margin:18px 0;padding:14px;border-radius:12px;background:linear-gradient(90deg,#06b6d4,#7c3aed);color:#fff;text-align:center;font-weight:700;letter-spacing:1px}
 
 .fade-up{opacity:0;transform:translateY(32px);transition:opacity .7s ease,transform .7s ease}
 .fade-up.in-view{opacity:1;transform:translateY(0)}

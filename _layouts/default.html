@@ -25,6 +25,12 @@
 
   <body>
     <header class="site-hero">
+      <div class="announcement">
+        <div class="inner">
+          <strong>Sauli says:</strong> Site refreshed — now live and shiny ✨
+          <a href="/resume.pdf" class="announce-cta">Get my resume</a>
+        </div>
+      </div>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
           <h1 class="site-title">{{ site.title | default: site.github.repository_name }}</h1>
@@ -33,6 +39,11 @@
         <div class="hero-ctas">
           <a class="btn btn-primary" href="{{ '/resume.pdf' | relative_url }}" download>Download Resume</a>
           <a class="btn" href="https://www.behance.net/saulisarkar" target="_blank" rel="noopener">Portfolio</a>
+        </div>
+        <div class="hero-sparkles" aria-hidden="true">
+          <span class="sparkle s1"></span>
+          <span class="sparkle s2"></span>
+          <span class="sparkle s3"></span>
         </div>
         {% if site.github.is_project_page %}
 <!--           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a> -->

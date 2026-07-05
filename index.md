@@ -14,6 +14,8 @@
   <p>I bring a blend of creative design thinking and practical marketing experience, shaped by my background in design and my hands-on work in creative marketing and international e-commerce operations. My multicultural experience has helped me build a global perspective and a strong understanding of modern consumer behavior.</p>
 </div>
 
+<div class="section-banner">Spreading sparkle ✨</div>
+
 ### Education
 
 <div class="fade-up card">
